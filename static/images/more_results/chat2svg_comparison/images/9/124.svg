@@ -1,8 +1,0 @@
-<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <rect width="512" height="512" fill="lightblue" />
-  <path d="M361,236c-40-30-90-26-120,10s-20,90,20,120s90,20,120-20S401,266,361,236z" fill="gray" />
-  <path d="M320,276c-10,0-19-8-19-18s9-18,19-18s18,8,18,18S330,276,320,276z" fill="white" />
-  <path d="M280,296c-6,0-10-4-10-9s4-9,10-9s9,4,9,9S286,296,280,296z" fill="white" />
-  <ellipse cx="250" cy="350" rx="8" ry="4" fill="darkblue" />
-  <path d="M361,236c30,5,40,40,40,40c20-5,40-5,60,5c-20-10-40-10-60-5c10-10,0-35-40-40z" fill="blue" />
-</svg>

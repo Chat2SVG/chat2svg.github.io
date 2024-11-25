@@ -1,7 +1,0 @@
-<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="256" cy="256" r="256" fill="skyblue" />
-  <path d="M160 320 L352 192 L368 208 L176 336 Z" fill="grey" />
-  <rect x="140" y="340" width="20" height="80" fill="black" transform="rotate(-20 150 380)" />
-  <rect x="200" y="280" width="20" height="150" fill="black" transform="rotate(-40 210 355)" />
-  <circle cx="352" cy="192" r="16" fill="white" />
-</svg>
