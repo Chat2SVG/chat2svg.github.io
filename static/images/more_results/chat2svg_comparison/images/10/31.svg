@@ -1,0 +1,10 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cup -->
+  <path d="M128 352 L384 352 L384 256 C384 220.3 355.7 192 320 192 L192 192 C156.3 192 128 220.3 128 256 Z" fill="#8B5E3C" stroke="#5A3E1B" stroke-width="4"/>
+  <!-- Handle -->
+  <path d="M384 224 C400 240 400 288 384 304" fill="none" stroke="#5A3E1B" stroke-width="20"/>
+  <!-- Steam -->
+  <path d="M160 192 C160 160 200 160 200 192" stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M208 192 C208 160 248 160 248 192" stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M256 192 C256 160 296 160 296 192" stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+</svg>

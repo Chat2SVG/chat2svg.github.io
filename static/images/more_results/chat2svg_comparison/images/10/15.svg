@@ -1,0 +1,26 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Butterfly Wings -->
+  <path d="M256 256 
+           C150 100, 50 200, 256 400 
+           C462 200, 362 100, 256 256" 
+        fill="#1E90FF" stroke="#104E8B" stroke-width="4"/>
+  <path d="M256 256 
+           C150 300, 50 400, 256 400 
+           C462 400, 362 300, 256 256" 
+        fill="#87CEFA" stroke="#104E8B" stroke-width="4"/>
+  
+  <!-- Butterfly Body -->
+  <ellipse cx="256" cy="256" rx="10" ry="60" fill="#2F4F4F" />
+  
+  <!-- Antennae -->
+  <line x1="256" y1="196" x2="236" y2="136" stroke="#2F4F4F" stroke-width="2"/>
+  <line x1="256" y1="196" x2="276" y2="136" stroke="#2F4F4F" stroke-width="2"/>
+  
+  <!-- Wing Details -->
+  <path d="M256 256 
+           C220 220, 180 240, 256 320" 
+        fill="none" stroke="#104E8B" stroke-width="2"/>
+  <path d="M256 256 
+           C292 220, 332 240, 256 320" 
+        fill="none" stroke="#104E8B" stroke-width="2"/>
+</svg>

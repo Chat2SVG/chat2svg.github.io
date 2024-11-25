@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="100%" height="100%" fill="#e6f3ff"/>
+  
+  <!-- Bamboo 1 -->
+  <path d="M100 50 L100 500" stroke="#4CAF50" stroke-width="20"/>
+  <path d="M90 100 L110 100" stroke="#45a049" stroke-width="4"/>
+  <path d="M90 200 L110 200" stroke="#45a049" stroke-width="4"/>
+  <path d="M90 300 L110 300" stroke="#45a049" stroke-width="4"/>
+  <path d="M90 400 L110 400" stroke="#45a049" stroke-width="4"/>
+  
+  <!-- Bamboo 2 -->
+  <path d="M200 100 L200 500" stroke="#4CAF50" stroke-width="25"/>
+  <path d="M190 150 L210 150" stroke="#45a049" stroke-width="4"/>
+  <path d="M190 250 L210 250" stroke="#45a049" stroke-width="4"/>
+  <path d="M190 350 L210 350" stroke="#45a049" stroke-width="4"/>
+  <path d="M190 450 L210 450" stroke="#45a049" stroke-width="4"/>
+  
+  <!-- Bamboo 3 -->
+  <path d="M300 0 L300 500" stroke="#4CAF50" stroke-width="30"/>
+  <path d="M290 100 L310 100" stroke="#45a049" stroke-width="4"/>
+  <path d="M290 200 L310 200" stroke="#45a049" stroke-width="4"/>
+  <path d="M290 300 L310 300" stroke="#45a049" stroke-width="4"/>
+  <path d="M290 400 L310 400" stroke="#45a049" stroke-width="4"/>
+  
+  <!-- Bamboo leaves -->
+  <path d="M80 50 Q100 0 120 50" fill="#66BB6A" stroke="#4CAF50" stroke-width="2"/>
+  <path d="M180 100 Q200 50 220 100" fill="#66BB6A" stroke="#4CAF50" stroke-width="2"/>
+  <path d="M280 0 Q300 -50 320 0" fill="#66BB6A" stroke="#4CAF50" stroke-width="2"/>
+  <path d="M310 100 Q330 50 350 100" fill="#66BB6A" stroke="#4CAF50" stroke-width="2"/>
+</svg>

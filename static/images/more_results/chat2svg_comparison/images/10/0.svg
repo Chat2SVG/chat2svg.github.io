@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Body of the air conditioner -->
+  <rect x="80" y="100" width="352" height="300" rx="20" ry="20" fill="#B0C4DE" stroke="#4682B4" stroke-width="4"/>
+  
+  <!-- Vents -->
+  <rect x="120" y="150" width="80" height="20" fill="#FFFFFF"/>
+  <rect x="312" y="150" width="80" height="20" fill="#FFFFFF"/>
+  <rect x="120" y="200" width="80" height="20" fill="#FFFFFF"/>
+  <rect x="312" y="200" width="80" height="20" fill="#FFFFFF"/>
+  <rect x="120" y="250" width="80" height="20" fill="#FFFFFF"/>
+  <rect x="312" y="250" width="80" height="20" fill="#FFFFFF"/>
+  
+  <!-- Control Panel -->
+  <rect x="200" y="320" width="112" height="50" rx="10" ry="10" fill="#ADD8E6" stroke="#4682B4" stroke-width="2"/>
+  <circle cx="220" cy="345" r="6" fill="#4682B4"/>
+  <circle cx="252" cy="345" r="6" fill="#4682B4"/>
+  <circle cx="284" cy="345" r="6" fill="#4682B4"/>
+  
+  <!-- Fan Blades -->
+  <g transform="translate(256, 80)">
+    <circle cx="0" cy="0" r="40" fill="#B0C4DE" stroke="#4682B4" stroke-width="4"/>
+    <line x1="0" y1="-35" x2="0" y2="35" stroke="#4682B4" stroke-width="4"/>
+    <line x1="-35" y1="0" x2="35" y2="0" stroke="#4682B4" stroke-width="4"/>
+    <line x1="-24.75" y1="-24.75" x2="24.75" y2="24.75" stroke="#4682B4" stroke-width="4"/>
+    <line x1="-24.75" y1="24.75" x2="24.75" y2="-24.75" stroke="#4682B4" stroke-width="4"/>
+  </g>
+  
+  <!-- Mounting Brackets -->
+  <rect x="100" y="100" width="16" height="300" fill="#4682B4"/>
+  <rect x="396" y="100" width="16" height="300" fill="#4682B4"/>
+</svg>

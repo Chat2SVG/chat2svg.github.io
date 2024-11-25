@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Mailbox Body -->
+  <rect x="112" y="192" width="288" height="256" fill="red" stroke="black" stroke-width="4"/>
+  
+  <!-- Mailbox Lid -->
+  <polygon points="112,192 256,80 400,192" fill="red" stroke="black" stroke-width="4"/>
+  
+  <!-- Mail Slot -->
+  <rect x="216" y="256" width="80" height="16" fill="white"/>
+  
+  <!-- Flag -->
+  <rect x="384" y="160" width="24" height="64" fill="red" stroke="black" stroke-width="4"/>
+  <polygon points="408,160 432,176 408,192" fill="red" stroke="black" stroke-width="4"/>
+</svg>

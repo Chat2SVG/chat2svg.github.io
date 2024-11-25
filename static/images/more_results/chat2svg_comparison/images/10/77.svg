@@ -1,0 +1,53 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#87CEEB"/> <!-- Light blue water background -->
+
+  <!-- Bubbles -->
+  <circle cx="100" cy="100" r="10" fill="rgba(255,255,255,0.7)"/>
+  <circle cx="200" cy="150" r="7" fill="rgba(255,255,255,0.7)"/>
+  <circle cx="300" cy="80" r="12" fill="rgba(255,255,255,0.7)"/>
+  <circle cx="400" cy="130" r="8" fill="rgba(255,255,255,0.7)"/>
+
+  <!-- Octopus Body -->
+  <ellipse cx="256" cy="256" rx="60" ry="80" fill="#FF6347"/> <!-- Tomato colored body -->
+
+  <!-- Eyes -->
+  <circle cx="236" cy="236" r="8" fill="#FFFFFF"/>
+  <circle cx="276" cy="236" r="8" fill="#FFFFFF"/>
+  <circle cx="236" cy="236" r="4" fill="#000000"/>
+  <circle cx="276" cy="236" r="4" fill="#000000"/>
+
+  <!-- Tentacles -->
+  <path d="M200,300 
+           C180,350 220,400 200,450 
+           C180,400 160,350 200,300" 
+        fill="#FF6347"/>
+
+  <path d="M312,300 
+           C332,350 292,400 312,450 
+           C332,400 352,350 312,300" 
+        fill="#FF6347"/>
+
+  <path d="M180,280 
+           C150,320 190,370 160,420 
+           C130,370 170,320 180,280" 
+        fill="#FF6347"/>
+
+  <path d="M332,280 
+           C362,320 322,370 352,420 
+           C382,370 342,320 332,280" 
+        fill="#FF6347"/>
+
+  <path d="M220,320 
+           C200,360 240,400 210,440 
+           C180,400 220,360 220,320" 
+        fill="#FF6347"/>
+
+  <path d="M292,320 
+           C312,360 272,400 302,440 
+           C332,400 292,360 292,320" 
+        fill="#FF6347"/>
+
+  <!-- Shadow for depth -->
+  <ellipse cx="256" cy="360" rx="100" ry="20" fill="rgba(0,0,0,0.1)"/>
+</svg>

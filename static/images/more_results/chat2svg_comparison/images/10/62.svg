@@ -1,0 +1,54 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#87CEEB"/>
+
+  <!-- Eucalyptus Tree Trunk -->
+  <rect x="200" y="150" width="24" height="300" fill="#8B4513"/>
+
+  <!-- Eucalyptus Leaves -->
+  <path d="M212 150 
+           C150 100, 150 200, 212 150 
+           C274 100, 274 200, 212 150" 
+        fill="#228B22" />
+  <path d="M212 180 
+           C160 130, 160 230, 212 180 
+           C264 130, 264 230, 212 180" 
+        fill="#228B22" />
+  <path d="M212 210 
+           C170 160, 170 260, 212 210 
+           C254 160, 254 260, 212 210" 
+        fill="#228B22" />
+
+  <!-- Koala Body -->
+  <circle cx="212" cy="250" r="40" fill="#A9A9A9"/>
+
+  <!-- Koala Head -->
+  <circle cx="212" cy="200" r="30" fill="#A9A9A9"/>
+
+  <!-- Koala Eyes -->
+  <circle cx="200" cy="190" r="5" fill="#000"/>
+  <circle cx="224" cy="190" r="5" fill="#000"/>
+
+  <!-- Koala Nose -->
+  <ellipse cx="212" cy="205" rx="6" ry="4" fill="#000"/>
+
+  <!-- Koala Ears -->
+  <circle cx="190" cy="185" r="10" fill="#A9A9A9" stroke="#000" stroke-width="2"/>
+  <circle cx="234" cy="185" r="10" fill="#A9A9A9" stroke="#000" stroke-width="2"/>
+
+  <!-- Koala Arms -->
+  <path d="M180 250 
+           Q170 270, 200 260" 
+        stroke="#A9A9A9" stroke-width="8" fill="none"/>
+  <path d="M244 250 
+           Q254 270, 224 260" 
+        stroke="#A9A9A9" stroke-width="8" fill="none"/>
+
+  <!-- Koala Legs -->
+  <path d="M200 290 
+           Q190 310, 212 300" 
+        stroke="#A9A9A9" stroke-width="8" fill="none"/>
+  <path d="M224 290 
+           Q234 310, 212 300" 
+        stroke="#A9A9A9" stroke-width="8" fill="none"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clear sky background -->
+  <rect width="512" height="512" fill="#87CEEB"/>
+
+  <!-- Rainbow arcs -->
+  <path d="M 112 400 A 200 200 0 0 1 400 400" stroke="red" stroke-width="20" fill="none"/>
+  <path d="M 128 400 A 180 180 0 0 1 384 400" stroke="orange" stroke-width="20" fill="none"/>
+  <path d="M 144 400 A 160 160 0 0 1 368 400" stroke="yellow" stroke-width="20" fill="none"/>
+  <path d="M 160 400 A 140 140 0 0 1 352 400" stroke="green" stroke-width="20" fill="none"/>
+  <path d="M 176 400 A 120 120 0 0 1 336 400" stroke="blue" stroke-width="20" fill="none"/>
+  <path d="M 192 400 A 100 100 0 0 1 320 400" stroke="indigo" stroke-width="20" fill="none"/>
+  <path d="M 208 400 A 80 80 0 0 1 304 400" stroke="violet" stroke-width="20" fill="none"/>
+</svg>

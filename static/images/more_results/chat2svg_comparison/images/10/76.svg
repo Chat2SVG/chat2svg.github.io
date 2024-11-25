@@ -1,0 +1,28 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky Background -->
+  <rect width="512" height="512" fill="#87CEEB"/>
+
+  <!-- Sun -->
+  <circle cx="400" cy="112" r="50" fill="#FFD700" />
+
+  <!-- Beach -->
+  <rect y="384" width="512" height="128" fill="#F4A460"/>
+
+  <!-- Waves -->
+  <g>
+    <path d="M0,384 C64,384 64,320 128,320 S192,384 256,384 S320,320 384,320 S448,384 512,384"
+          fill="none" stroke="#1E90FF" stroke-width="4"/>
+    <path d="M0,400 C64,400 64,336 128,336 S192,400 256,400 S320,336 384,336 S448,400 512,400"
+          fill="none" stroke="#00BFFF" stroke-width="4"/>
+    <path d="M0,416 C64,416 64,352 128,352 S192,416 256,416 S320,352 384,352 S448,416 512,416"
+          fill="none" stroke="#1E90FF" stroke-width="4"/>
+  </g>
+
+  <!-- Foam on Waves -->
+  <path d="M128,320 Q136,310 144,320 T160,320 T176,320 T192,320 T208,320 T224,320"
+        fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M256,384 Q264,374 272,384 T288,384 T304,384 T320,384 T336,384 T352,384"
+        fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M384,320 Q392,310 400,320 T416,320 T432,320 T448,320 T464,320 T480,320"
+        fill="none" stroke="#FFFFFF" stroke-width="2"/>
+</svg>

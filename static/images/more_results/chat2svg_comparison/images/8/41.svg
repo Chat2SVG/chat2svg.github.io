@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="dragonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513"/>
+      <stop offset="100%" style="stop-color:#CD853F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Dragon body -->
+  <path d="M100 250 Q 250 100 400 250 Q 250 400 100 250 Z" fill="url(#dragonGradient)"/>
+  
+  <!-- Dragon head -->
+  <path d="M380 220 Q 450 200 480 250 Q 450 300 380 280 Z" fill="#8B4513"/>
+  
+  <!-- Dragon eye -->
+  <circle cx="450" cy="250" r="10" fill="yellow"/>
+  
+  <!-- Dragon wings -->
+  <path d="M250 200 Q 150 100 50 200 L 100 250 Z" fill="#CD853F"/>
+  <path d="M250 300 Q 150 400 50 300 L 100 250 Z" fill="#CD853F"/>
+  
+  <!-- Passengers -->
+  <circle cx="150" cy="230" r="20" fill="#FFB6C1"/>
+  <circle cx="200" cy="250" r="20" fill="#98FB98"/>
+  <circle cx="250" cy="230" r="20" fill="#ADD8E6"/>
+  <circle cx="300" cy="250" r="20" fill="#FAFAD2"/>
+  
+  <!-- Dragon tail -->
+  <path d="M100 250 Q 50 300 20 350" fill="none" stroke="#8B4513" stroke-width="20"/>
+</svg>

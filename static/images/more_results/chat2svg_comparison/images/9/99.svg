@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .shield { fill: #b0c4de; stroke: #2f4f4f; stroke-width: 10px; }
+      .lion { fill: #8b4513; }
+    </style>
+  </defs>
+  <path class="shield" d="M256,20 L396,100 C430,120 430,180 396,200 L256,280 L116,200 C82,180 82,120 116,100 Z"/>
+  <path class="lion" d="M256,240 
+    c-20,-28 -50,-18 -60,-48
+    c0,-12 10,-28 30,-28
+    c50,10 20,-50 20,-50
+    c20,20 10,50 50,60
+    c10,40 -30,50 -40,60
+    Z" />
+</svg>

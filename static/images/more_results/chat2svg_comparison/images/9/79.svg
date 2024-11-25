@@ -1,0 +1,27 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Branch -->
+  <path d="M50 400 Q200 350 450 400" fill="none" stroke="#8B4513" stroke-width="15"/>
+
+  <!-- Owl's body -->
+  <ellipse cx="256" cy="250" rx="60" ry="80" fill="#836953"/>
+
+  <!-- Owl's head -->
+  <circle cx="256" cy="150" r="50" fill="#836953"/>
+
+  <!-- Owl's eyes -->
+  <circle cx="236" cy="140" r="10" fill="#fff"/>
+  <circle cx="276" cy="140" r="10" fill="#fff"/>
+  <circle cx="236" cy="140" r="5" fill="#000"/>
+  <circle cx="276" cy="140" r="5" fill="#000"/>
+
+  <!-- Owl's beak -->
+  <polygon points="250,160 256,180 262,160" fill="#DAA520"/>
+
+  <!-- Owl's wings -->
+  <ellipse cx="206" cy="250" rx="20" ry="50" fill="#836953"/>
+  <ellipse cx="306" cy="250" rx="20" ry="50" fill="#836953"/>
+
+  <!-- Owl's feet -->
+  <ellipse cx="246" cy="330" rx="10" ry="5" fill="#DAA520"/>
+  <ellipse cx="266" cy="330" rx="10" ry="5" fill="#DAA520"/>
+</svg>

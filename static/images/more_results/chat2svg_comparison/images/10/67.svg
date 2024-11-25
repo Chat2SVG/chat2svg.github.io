@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Lion's Mane -->
+  <circle cx="256" cy="256" r="200" fill="#FFD700" stroke="#DAA520" stroke-width="20"/>
+  <!-- Head -->
+  <circle cx="256" cy="256" r="150" fill="#FFA500"/>
+  <!-- Eyes -->
+  <circle cx="206" cy="216" r="20" fill="#FFFFFF"/>
+  <circle cx="306" cy="216" r="20" fill="#FFFFFF"/>
+  <circle cx="206" cy="216" r="10" fill="#000000"/>
+  <circle cx="306" cy="216" r="10" fill="#000000"/>
+  <!-- Nose -->
+  <polygon points="256,276 246,306 266,306" fill="#000000"/>
+  <!-- Mouth -->
+  <path d="M246,306 Q256,316 266,306" stroke="#000000" stroke-width="5" fill="none"/>
+  <!-- Whiskers -->
+  <line x1="200" y1="300" x2="150" y2="290" stroke="#000000" stroke-width="3"/>
+  <line x1="200" y1="310" x2="150" y2="320" stroke="#000000" stroke-width="3"/>
+  <line x1="312" y1="300" x2="362" y2="290" stroke="#000000" stroke-width="3"/>
+  <line x1="312" y1="310" x2="362" y2="320" stroke="#000000" stroke-width="3"/>
+</svg>

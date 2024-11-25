@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Sky -->
+  <rect width="512" height="512" fill="#87CEEB" />
+
+  <!-- Desert Ground -->
+  <rect y="400" width="512" height="112" fill="#EDC9Af" />
+
+  <!-- Cactus Trunk -->
+  <rect x="240" y="220" width="32" height="180" fill="#228B22" />
+
+  <!-- Left Arm -->
+  <rect x="200" y="160" width="32" height="80" fill="#228B22" />
+
+  <!-- Right Arm -->
+  <rect x="280" y="160" width="32" height="80" fill="#228B22" />
+
+  <!-- Optional: Add some spines for detail -->
+  <line x1="256" y1="220" x2="256" y2="200" stroke="#006400" stroke-width="2"/>
+  <line x1="256" y1="220" x2="266" y2="210" stroke="#006400" stroke-width="2"/>
+  <line x1="256" y1="220" x2="246" y2="210" stroke="#006400" stroke-width="2"/>
+</svg>

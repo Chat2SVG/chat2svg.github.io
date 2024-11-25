@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Simple representation of a running red fox -->
+  <g fill="red" stroke="black" stroke-width="2">
+    <!-- Body -->
+    <ellipse cx="256" cy="256" rx="100" ry="50"/>
+    <!-- Head -->
+    <circle cx="180" cy="220" r="30"/>
+    <!-- Ears -->
+    <polygon points="170,210 175,190 180,210" />
+    <polygon points="190,210 185,190 180,210" />
+    <!-- Tail -->
+    <path d="M356,256 Q400,220 356,180 Q400,240 356,256 Z" fill="orange"/>
+    <!-- Legs -->
+    <rect x="220" y="280" width="20" height="60" />
+    <rect x="260" y="280" width="20" height="60" />
+    <rect x="240" y="280" width="20" height="60" transform="rotate(20 250 280)"/>
+    <rect x="250" y="280" width="20" height="60" transform="rotate(-20 260 280)"/>
+  </g>
+</svg>

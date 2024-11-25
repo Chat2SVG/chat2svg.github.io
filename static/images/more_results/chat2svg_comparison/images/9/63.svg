@@ -1,0 +1,27 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Draw the leaf -->
+  <path d="M256 50c100 0 171 60 171 135s-71 135-171 135S85 270 85 185 156 50 256 50z" fill="#76c86b"/>
+  <!-- Leaf vein -->
+  <path d="M256 50v270" stroke="#5da051" stroke-width="5"/>
+  
+  <!-- Draw the ladybug's body -->
+  <circle cx="256" cy="185" r="40" fill="#ff3333"/>
+  
+  <!-- Draw the ladybug's head -->
+  <circle cx="256" cy="155" r="20" fill="#333"/>
+  
+  <!-- Draw the ladybug's spots -->
+  <!-- Left Spots -->
+  <circle cx="246" cy="175" r="5" fill="#333"/>
+  <circle cx="235" cy="195" r="5" fill="#333"/>
+  <circle cx="245" cy="215" r="5" fill="#333"/>
+  
+  <!-- Right Spots -->
+  <circle cx="266" cy="175" r="5" fill="#333"/>
+  <circle cx="277" cy="195" r="5" fill="#333"/>
+  <circle cx="267" cy="215" r="5" fill="#333"/>
+
+  <!-- Draw ladybug's antennae -->
+  <path d="M248 143c-10 -10 -20 -20 -20 -25" stroke="#333" stroke-width="2"/>
+  <path d="M264 143c10 -10 20 -20 20 -25" stroke="#333" stroke-width="2"/>
+</svg>

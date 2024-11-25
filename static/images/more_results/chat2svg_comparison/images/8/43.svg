@@ -1,0 +1,22 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect x="0" y="0" width="512" height="350" fill="#87CEEB"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="350" width="512" height="162" fill="#7CFC00"/>
+  
+  <!-- Farmhouse -->
+  <rect x="50" y="200" width="200" height="200" fill="#F5DEB3"/>
+  <polygon points="50,200 150,100 250,200" fill="#8B4513"/>
+  <rect x="120" y="300" width="60" height="100" fill="#8B4513"/>
+  <rect x="70" y="230" width="40" height="40" fill="#87CEFA"/>
+  <rect x="190" y="230" width="40" height="40" fill="#87CEFA"/>
+  
+  <!-- Red Barn -->
+  <rect x="300" y="250" width="180" height="150" fill="#FF0000"/>
+  <polygon points="300,250 390,170 480,250" fill="#8B0000"/>
+  <rect x="370" y="300" width="40" height="100" fill="#FFFFFF"/>
+  
+  <!-- Sun -->
+  <circle cx="450" cy="80" r="40" fill="#FFD700"/>
+</svg>

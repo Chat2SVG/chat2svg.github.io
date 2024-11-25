@@ -1,0 +1,10 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  
+  <!-- Mirror Frame -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#8B8C89" stroke-width="30"/>
+  
+  <!-- Mirror Reflection -->
+  <circle cx="256" cy="256" r="180" fill="rgba(255, 255, 255, 0.2)" />
+</svg>

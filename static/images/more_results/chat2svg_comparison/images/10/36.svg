@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Central Circle -->
+  <circle cx="256" cy="256" r="50" fill="#FFD700"/>
+  
+  <!-- Petals Group -->
+  <g fill="#FFFFFF">
+    <ellipse cx="256" cy="156" rx="10" ry="50" />
+    <ellipse cx="256" cy="156" rx="10" ry="50" transform="rotate(30 256 256)" />
+    <ellipse cx="256" cy="156" rx="10" ry="50" transform="rotate(60 256 256)" />
+    <ellipse cx="256" cy="156" rx="10" ry="50" transform="rotate(90 256 256)" />
+    <ellipse cx="256" cy="156" rx="10" ry="50" transform="rotate(120 256 256)" />
+    <ellipse cx="256" cy="156" rx="10" ry="50" transform="rotate(150 256 256)" />
+    <ellipse cx="256" cy="156" rx="10" ry="50" transform="rotate(180 256 256)" />
+    <ellipse cx="256" cy="156" rx="10" ry="50" transform="rotate(210 256 256)" />
+    <ellipse cx="256" cy="156" rx="10" ry="50" transform="rotate(240 256 256)" />
+    <ellipse cx="256" cy="156" rx="10" ry="50" transform="rotate(270 256 256)" />
+    <ellipse cx="256" cy="156" rx="10" ry="50" transform="rotate(300 256 256)" />
+    <ellipse cx="256" cy="156" rx="10" ry="50" transform="rotate(330 256 256)" />
+  </g>
+</svg>

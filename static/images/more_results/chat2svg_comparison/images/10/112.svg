@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blade -->
+  <rect x="240" y="50" width="32" height="300" fill="#C0C0C0" stroke="#808080" stroke-width="2"/>
+  <!-- Crossguard -->
+  <rect x="200" y="350" width="112" height="20" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <!-- Grip -->
+  <rect x="240" y="370" width="32" height="100" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <!-- Pommel -->
+  <circle cx="256" cy="480" r="16" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <!-- Decorations on Blade -->
+  <line x1="256" y1="50" x2="256" y2="350" stroke="#808080" stroke-width="2"/>
+  <path d="M240,150 Q256,130 272,150" stroke="#808080" stroke-width="2" fill="none"/>
+  <path d="M240,250 Q256,230 272,250" stroke="#808080" stroke-width="2" fill="none"/>
+</svg>

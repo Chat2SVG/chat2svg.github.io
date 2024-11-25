@@ -1,0 +1,39 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - Sunset Gradient -->
+  <defs>
+    <linearGradient id="sunsetGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF5E5B"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#2E3192"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sunsetGradient)" />
+
+  <!-- Sun -->
+  <circle cx="400" cy="400" r="60" fill="#FFD700" />
+
+  <!-- Clock Tower Structure -->
+  <rect x="220" y="200" width="72" height="200" fill="#8B8680" />
+  
+  <!-- Tower Roof -->
+  <polygon points="220,200 256,150 292,200" fill="#555555" />
+  
+  <!-- Clock Face -->
+  <circle cx="256" cy="300" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  
+  <!-- Clock Hands -->
+  <line x1="256" y1="300" x2="256" y2="280" stroke="#000000" stroke-width="4" />
+  <line x1="256" y1="300" x2="270" y2="300" stroke="#000000" stroke-width="4" />
+  
+  <!-- Tower Windows -->
+  <rect x="240" y="220" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="256" y="220" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="240" y="250" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="256" y="250" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="240" y="280" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="256" y="280" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Decorative Elements -->
+  <line x1="256" y1="150" x2="256" y2="200" stroke="#555555" stroke-width="4" />
+  <line x1="220" y1="200" x2="292" y2="200" stroke="#555555" stroke-width="4" />
+</svg>

@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky Background -->
+  <rect width="512" height="512" fill="#a0c4ff"/>
+
+  <!-- Sun -->
+  <circle cx="400" cy="112" r="50" fill="#fff3b0" opacity="0.8"/>
+
+  <!-- Icebergs -->
+  <polygon points="100,400 150,250 200,400" fill="#b3e5fc" stroke="#81d4fa" stroke-width="2"/>
+  <polygon points="300,400 350,270 400,400" fill="#81d4fa" stroke="#4fc3f7" stroke-width="2"/>
+  <polygon points="450,400 475,290 500,400" fill="#b3e5fc" stroke="#81d4fa" stroke-width="2"/>
+
+  <!-- Snow -->
+  <circle cx="80" cy="80" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="120" cy="60" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="160" cy="100" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="200" cy="70" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="240" cy="90" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="280" cy="50" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="320" cy="80" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="360" cy="60" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="400" cy="90" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="440" cy="70" r="2" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Ice Field -->
+  <rect y="400" width="512" height="112" fill="#e0f7fa"/>
+</svg>

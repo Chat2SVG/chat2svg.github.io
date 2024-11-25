@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Sky Background -->
+  <rect width="512" height="512" fill="#0d1b2a"/>
+
+  <!-- Moon -->
+  <circle cx="400" cy="100" r="40" fill="#f0f3bd"/>
+
+  <!-- Tokyo Tower -->
+  <polygon points="256,100 240,300 272,300" fill="#e63946"/>
+  <rect x="246" y="300" width="20" height="200" fill="#e63946"/>
+  <circle cx="256" cy="500" r="10" fill="#ffffff"/>
+
+  <!-- Buildings -->
+  <rect x="50" y="250" width="60" height="250" fill="#1d3557"/>
+  <rect x="130" y="200" width="80" height="300" fill="#457b9d"/>
+  <rect x="230" y="220" width="50" height="280" fill="#1d3557"/>
+  <rect x="300" y="180" width="90" height="320" fill="#457b9d"/>
+  <rect x="420" y="260" width="60" height="240" fill="#1d3557"/>
+
+  <!-- Windows on Buildings -->
+  <!-- Building 1 -->
+  <g fill="#a8dadc" opacity="0.8">
+    <rect x="55" y="260" width="10" height="15"/>
+    <rect x="70" y="260" width="10" height="15"/>
+    <rect x="55" y="285" width="10" height="15"/>
+    <rect x="70" y="285" width="10" height="15"/>
+    <!-- More windows can be added similarly -->
+  </g>
+
+  <!-- Building 2 -->
+  <g fill="#a8dadc" opacity="0.8">
+    <rect x="135" y="210" width="10" height="15"/>
+    <rect x="155" y="210" width="10" height="15"/>
+    <rect x="135" y="235" width="10" height="15"/>
+    <rect x="155" y="235" width="10" height="15"/>
+    <!-- More windows can be added similarly -->
+  </g>
+
+  <!-- Tokyo Tower Lights -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="256" cy="150" r="3"/>
+    <circle cx="240" cy="180" r="3"/>
+    <circle cx="272" cy="180" r="3"/>
+    <circle cx="256" cy="210" r="3"/>
+    <circle cx="256" cy="240" r="3"/>
+  </g>
+</svg>

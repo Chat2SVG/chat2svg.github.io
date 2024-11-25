@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Lily pad -->
+  <ellipse cx="256" cy="400" rx="200" ry="80" fill="#3cb371" />
+  
+  <!-- Frog body -->
+  <ellipse cx="256" cy="350" rx="100" ry="70" fill="#32cd32" />
+  
+  <!-- Frog head -->
+  <circle cx="256" cy="280" r="60" fill="#32cd32" />
+  
+  <!-- Eyes -->
+  <circle cx="236" cy="260" r="20" fill="white" />
+  <circle cx="276" cy="260" r="20" fill="white" />
+  <circle cx="236" cy="260" r="10" fill="black" />
+  <circle cx="276" cy="260" r="10" fill="black" />
+  
+  <!-- Mouth -->
+  <path d="M226 300 Q256 320 286 300" fill="none" stroke="#228b22" stroke-width="5" />
+  
+  <!-- Front legs -->
+  <path d="M186 370 Q156 400 146 430" fill="none" stroke="#32cd32" stroke-width="10" />
+  <path d="M326 370 Q356 400 366 430" fill="none" stroke="#32cd32" stroke-width="10" />
+  
+  <!-- Back legs -->
+  <path d="M206 400 Q176 450 166 480" fill="none" stroke="#32cd32" stroke-width="10" />
+  <path d="M306 400 Q336 450 346 480" fill="none" stroke="#32cd32" stroke-width="10" />
+</svg>

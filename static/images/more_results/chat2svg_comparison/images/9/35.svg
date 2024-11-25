@@ -1,0 +1,13 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base of the crown -->
+  <path d="M50 400 L150 250 L200 300 L250 200 L300 300 L350 250 L450 400 Z" fill="gold" stroke="black" stroke-width="5"/>
+
+  <!-- Jewel 1 -->
+  <circle cx="150" cy="250" r="20" fill="red" stroke="black" stroke-width="3"/>
+  
+  <!-- Jewel 2 -->
+  <circle cx="250" cy="200" r="20" fill="blue" stroke="black" stroke-width="3"/>
+  
+  <!-- Jewel 3 -->
+  <circle cx="350" cy="250" r="20" fill="green" stroke="black" stroke-width="3"/>
+</svg>

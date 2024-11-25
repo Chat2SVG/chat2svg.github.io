@@ -1,0 +1,13 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky Background -->
+  <rect width="512" height="512" fill="lightblue" />
+
+  <!-- Mountains -->
+  <polygon points="50,450 200,200 350,450" fill="gray" />
+  <polygon points="150,450 300,250 450,450" fill="darkgray" />
+  <polygon points="0,450 100,300 200,450" fill="dimgray" />
+  <polygon points="300,450 400,300 500,450" fill="slategray" />
+
+  <!-- River -->
+  <path d="M0,450 C100,400 400,400 512,450 L512,512 L0,512 Z" fill="deepskyblue" />
+</svg>

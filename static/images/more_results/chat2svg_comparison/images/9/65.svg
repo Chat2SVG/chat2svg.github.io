@@ -1,0 +1,13 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Desk -->
+  <rect x="0" y="400" width="512" height="112" fill="#D2B48C" />
+  <!-- Laptop Base -->
+  <rect x="128" y="280" width="256" height="80" fill="#B0C4DE" />
+  <!-- Laptop Screen -->
+  <rect x="138" y="160" width="236" height="120" fill="#4682B4" />
+  <!-- Laptop Keys -->
+  <line x1="138" y1="360" x2="374" y2="360" stroke="#778899" stroke-width="2" />
+  <line x1="138" y1="370" x2="374" y2="370" stroke="#778899" stroke-width="2" />
+  <line x1="138" y1="380" x2="374" y2="380" stroke="#778899" stroke-width="2" />
+  <line x1="138" y1="390" x2="374" y2="390" stroke="#778899" stroke-width="2" />
+</svg>

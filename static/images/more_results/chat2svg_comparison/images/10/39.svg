@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Body -->
+  <ellipse cx="256" cy="320" rx="100" ry="60" fill="#A52A2A"/>
+  
+  <!-- Head -->
+  <circle cx="256" cy="200" r="50" fill="#A52A2A"/>
+  
+  <!-- Eyes -->
+  <circle cx="240" cy="190" r="5" fill="#000"/>
+  <circle cx="272" cy="190" r="5" fill="#000"/>
+  
+  <!-- Ears -->
+  <polygon points="220,180 210,160 230,170" fill="#A52A2A"/>
+  <polygon points="292,180 300,160 280,170" fill="#A52A2A"/>
+  
+  <!-- Tail -->
+  <path d="M356,320 Q400,300 356,280" stroke="#A52A2A" stroke-width="10" fill="none"/>
+  
+  <!-- Legs -->
+  <rect x="220" y="350" width="15" height="70" fill="#A52A2A"/>
+  <rect x="275" y="350" width="15" height="70" fill="#A52A2A"/>
+</svg>

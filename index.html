@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B9N9911MNC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B9N9911MNC');
+  </script>
+  
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Chat2SVG">
+  <meta name="viewport" content="width=device-width, initial-scale=0.1">
+  <title>Chat2SVG: Vector Graphics Generation with Large Language Models and Image Diffusion Models</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-tooltip.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<!--Title block-->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop" id="top">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Chat2SVG: Vector Graphics Generation with Large Language Models and Image Diffusion Models</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><a href="https://kingnobro.github.io/" target="_blank">Ronghuan Wu</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://ansire.github.io/" target="_blank">Wanchao Su</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://www.cityu.edu.hk/stfprofile/jingliao.htm" target="_blank">Jing Liao</a><sup>1</sup></span>
+          </div>
+          <br>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>City University of Hong Kong, <sup>2</sup>Monash University</span> 
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+
+           
+            </div>
+          </div>
+
+
+          <div class="columns is-centered has-text-centered is-variable is-8">
+          <div class="column is-three-quarters is-centered has-text-centered">
+            <div class="publication-links ">
+
+            <span class="link-block">
+              <a href="static/images/more_results/index.html"
+                  class="nav-link button-55 is-normal">
+                <span>Gallery</span>
+                </a>
+            </span>
+
+          </div>
+
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Abstract. -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+        <p>
+          Scalable Vector Graphics (SVG) has become the de facto standard for vector graphics in digital design, offering resolution independence and precise control over individual elements. Despite their advantages, creating high-quality SVG content remains challenging, as it demands technical expertise with professional editing software and a considerable time investment to craft complex shapes. Recent text-to-SVG generation methods aim to make vector graphics creation more accessible, but they still encounter limitations in shape regularity, generalization ability, and expressiveness. To address these challenges, we introduce Chat2SVG, a hybrid framework that combines the strengths of Large Language Models (LLMs) and image diffusion models for text-to-SVG generation. Our approach first uses an LLM to generate semantically meaningful SVG templates from basic geometric primitives. Guided by image diffusion models, a dual-stage optimization pipeline refines paths in latent space and adjusts point coordinates to enhance geometric complexity. Extensive experiments show that Chat2SVG outperforms existing methods in visual fidelity, path regularity, and semantic alignment. Additionally, our system enables intuitive editing through natural language instructions, making professional vector graphics creation accessible to all users.
+        </p>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="section-title has-text-centered is-centered">
+      <h2 class="title is-3">How does it work?</h2><br>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-one-fifths has-text-centered">
+          <img id="network" src="static/images/pipeline.png"/>
+          <div class="content has-text-justified" style="margin-top: 20px;">
+            Given a text prompt, our system first leverages an LLM to generate an SVG template composed of basic geometric primitives. The rendered template is enhanced through SDEdit with ControlNet to add visual details while preserving the overall composition, yielding a target image. The SVG then undergoes a dual-stage optimization process to match the target image.
+            <br>
+            (1) Primitives are converted to latent embeddings through latent inversion and optimized along with their visual attributes (i.e., filling colors <i>c<sub>i</sub></i>, stroke properties <i>s<sub>i</sub></i>, and transformation matrices <i>T<sub>i</sub></i>).
+            <br>
+            (2) Point-level optimization is performed to refine the geometric details of SVG paths.
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="section-title has-text-centered is-centered">
+      <h2 class="title is-3">Text-Guided SVG Generation</h2><br>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-one-fifths has-text-centered">
+          <img id="network" src="static/images/teaser.png"/>
+          <div class="content has-text-justified" style="margin-top: 20px;">
+            SVG examples generated by our Chat2SVG. We highlight some shapes to demonstrate semantic clarity and path quality.
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="section-title has-text-centered is-centered">
+      <h2 class="title is-3">Text-Guided SVG Editing</h2><br>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-one-fifths has-text-centered">
+          <img id="network2" src="static/images/editing.png"/>
+          <div class="content has-text-justified" style="margin-top: 20px;">
+            We perform two rounds of refinement on each SVG template and show the optimized output.
+            This figure shows editing types including deletion, modification, and addition.
+          </div>
+      </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <!-- <a class="icon-link"
+         href="coming soon">
+        <i class="fas fa-file-pdf"></i>
+      </a> -->
+      <!-- <a class="icon-link" href="https://github.com/yael-vinker/live_sketch" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a> -->
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Website source code based on the <a href="https://livesketch.github.io/">LiveSketch</a> project page. If you want to reuse their <a
+              href="https://github.com/LiveSketch/livesketch.github.io">source code</a>, please credit them appropriately.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

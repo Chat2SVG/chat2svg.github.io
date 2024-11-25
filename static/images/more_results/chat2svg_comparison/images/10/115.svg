@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Ground -->
+  <rect x="0" y="400" width="512" height="112" fill="#8B4513" />
+
+  <!-- Tent -->
+  <polygon points="256,100 100,400 412,400" fill="#2E8B57" stroke="#006400" stroke-width="5"/>
+
+  <!-- Tent Door -->
+  <rect x="220" y="250" width="72" height="150" fill="#006400" stroke="#004d1a" stroke-width="3"/>
+
+  <!-- Tent Poles -->
+  <line x1="256" y1="100" x2="256" y2="400" stroke="#654321" stroke-width="4"/>
+  <line x1="200" y1="300" x2="300" y2="300" stroke="#654321" stroke-width="4"/>
+</svg>

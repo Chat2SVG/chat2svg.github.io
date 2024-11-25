@@ -1,0 +1,17 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cup -->
+  <rect x="156" y="150" width="200" height="300" rx="20" ry="20" fill="#E0C97F" stroke="#8F7758" stroke-width="4"/>
+  
+  <!-- Bubble tea balls -->
+  <circle cx="200" cy="400" r="20" fill="#563E27"/>
+  <circle cx="250" cy="420" r="20" fill="#563E27"/>
+  <circle cx="300" cy="400" r="20" fill="#563E27"/>
+  <circle cx="230" cy="460" r="20" fill="#563E27"/>
+  <circle cx="270" cy="460" r="20" fill="#563E27"/>
+  
+  <!-- Straw -->
+  <rect x="245" y="70" width="20" height="120" fill="#F28B29" stroke="#D77A0A" stroke-width="4"/>
+  
+  <!-- Cup lid -->
+  <path d="M 156 150 Q 256 80 356 150" fill="#F5EAD7" stroke="#8F7758" stroke-width="4"/>
+</svg>

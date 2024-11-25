@@ -1,0 +1,24 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Plate -->
+  <ellipse cx="256" cy="440" rx="200" ry="20" fill="#C0C0C0" />
+  
+  <!-- Pancakes -->
+  <!-- Bottom pancake -->
+  <ellipse cx="256" cy="380" rx="150" ry="20" fill="#D2B48C" />
+  <!-- Middle pancake -->
+  <ellipse cx="256" cy="340" rx="150" ry="20" fill="#D2B48C" />
+  <!-- Top pancake -->
+  <ellipse cx="256" cy="300" rx="150" ry="20" fill="#D2B48C" />
+
+  <!-- Syrup -->
+  <!-- Dripping syrup -->
+  <path d="M196 280 C180 290, 200 320, 160 330
+           S180 360, 196 330
+           S240 340, 216 330
+           S256 310, 256 290
+           S270 260, 240 280
+           S220 270, 196 280"
+        fill="#8B4513" />
+  <!-- Pool of syrup on top -->
+  <ellipse cx="256" cy="300" rx="70" ry="10" fill="#8B4513" />
+</svg>

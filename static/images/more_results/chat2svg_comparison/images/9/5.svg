@@ -1,0 +1,26 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="avocadoGradient" cx="0.5" cy="0.5" r="0.5" fx="0.5" fy="0.5">
+      <stop offset="0%" stop-color="#A9D18E"/>
+      <stop offset="100%" stop-color="#6AAB4F"/>
+    </radialGradient>
+    <radialGradient id="seedGradient" cx="0.5" cy="0.5" r="0.5" fx="0.5" fy="0.5">
+      <stop offset="0%" stop-color="#8B5A2B"/>
+      <stop offset="100%" stop-color="#5C4033"/>
+    </radialGradient>
+  </defs>
+  <!-- Avocado shape -->
+  <path d="M256,50
+          C150,50 90,200 180,350
+          C230,420 280,450 330,450
+          C410,450 460,400 460,320
+          C460,250 410,100 256,50
+          Z" 
+        fill="url(#avocadoGradient)"/>
+  <!-- Avocado seed (seat) -->
+  <ellipse cx="300" cy="300" rx="60" ry="80" fill="url(#seedGradient)"/>
+  <!-- Chair legs -->
+  <line x1="260" y1="450" x2="240" y2="512" stroke="#5C4033" stroke-width="10"/>
+  <line x1="300" y1="450" x2="280" y2="512" stroke="#5C4033" stroke-width="10"/>
+  <line x1="340" y1="450" x2="360" y2="512" stroke="#5C4033" stroke-width="10"/>
+</svg>

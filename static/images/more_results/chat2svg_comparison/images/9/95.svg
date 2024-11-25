@@ -1,0 +1,13 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="black" stroke-width="4">
+    <!-- The base/supporting structure of the roller coaster -->
+    <path d="M50 462 L50 300 Q50 280 70 280 L100 280 Q120 280 120 300 L120 462" />
+    <path d="M180 462 L180 250 Q180 230 200 230 L230 230 Q250 230 250 250 L250 462" />
+    <path d="M300 462 L300 200 Q300 180 320 180 L350 180 Q370 180 370 200 L370 462" />
+    <path d="M420 462 L420 150 Q420 130 440 130 L470 130 Q490 130 490 150 L490 462" />
+
+    <!-- Track with loops -->
+    <path d="M70 280 C150 200 100 130 120 100 C160 40 180 250 230 230
+             C280 210 270 140 320 180 C360 220 370 90 420 130" />
+  </g>
+</svg>

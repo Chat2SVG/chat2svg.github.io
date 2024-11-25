@@ -1,0 +1,43 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Sky -->
+  <rect width="512" height="512" fill="#87ceeb"/>
+
+  <!-- Water -->
+  <rect y="300" width="512" height="212" fill="#1e90ff"/>
+
+  <!-- Dock -->
+  <rect x="50" y="250" width="400" height="10" fill="#8b4513"/>
+  <rect x="50" y="260" width="400" height="10" fill="#8b4513"/>
+  <rect x="50" y="270" width="400" height="10" fill="#8b4513"/>
+
+  <!-- Boat 1 -->
+  <g>
+    <path d="M150,300 L170,290 L190,300 Z" fill="#fff"/>
+    <rect x="160" y="300" width="30" height="10" fill="#8b4513"/>
+    <line x1="175" y1="290" x2="175" y2="270" stroke="#000" stroke-width="2"/>
+    <polygon points="175,270 165,280 185,280" fill="#fff"/>
+  </g>
+
+  <!-- Boat 2 -->
+  <g>
+    <path d="M300,320 L320,310 L340,320 Z" fill="#fff"/>
+    <rect x="310" y="320" width="30" height="10" fill="#8b4513"/>
+    <line x1="325" y1="310" x2="325" y2="290" stroke="#000" stroke-width="2"/>
+    <polygon points="325,290 315,300 335,300" fill="#fff"/>
+  </g>
+
+  <!-- Boat 3 -->
+  <g>
+    <path d="M220,350 L240,340 L260,350 Z" fill="#fff"/>
+    <rect x="230" y="350" width="30" height="10" fill="#8b4513"/>
+    <line x1="245" y1="340" x2="245" y2="320" stroke="#000" stroke-width="2"/>
+    <polygon points="245,320 235,330 255,330" fill="#fff"/>
+  </g>
+
+  <!-- Reflections on Water -->
+  <g opacity="0.3">
+    <ellipse cx="175" cy="310" rx="20" ry="5" fill="#ffffff"/>
+    <ellipse cx="325" cy="330" rx="20" ry="5" fill="#ffffff"/>
+    <ellipse cx="245" cy="360" rx="20" ry="5" fill="#ffffff"/>
+  </g>
+</svg>

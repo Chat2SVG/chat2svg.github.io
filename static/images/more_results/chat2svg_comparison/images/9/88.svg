@@ -1,0 +1,18 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Basic Pirate's Head -->
+  <circle cx="256" cy="256" r="100" fill="lightgray" stroke="black" stroke-width="2" />
+  <!-- Pirate's Bandana -->
+  <path d="M156,200 C156,170 356,170 356,200 Q306,220 256,200 Q206,220 156,200" fill="red" />
+  <!-- Eye Patch -->
+  <ellipse cx="220" cy="240" rx="30" ry="20" fill="black" />
+  <line x1="190" y1="240" x2="250" y2="240" stroke="black" stroke-width="4" />
+  <!-- Pirate's Beard -->
+  <path d="M200,310 Q256,370 312,310" fill="black" />
+  <!-- Parrot on Shoulder -->
+  <circle cx="330" cy="180" r="30" fill="green" />
+  <polygon points="330,150 320,180 340,180" fill="yellow" />
+  <ellipse cx="340" cy="170" rx="5" ry="10" fill="blue" />
+  <circle cx="330" cy="175" r="5" fill="white" />
+  <!-- Shoulder -->
+  <rect x="220" y="300" width="200" height="40" fill="brown" />
+</svg>

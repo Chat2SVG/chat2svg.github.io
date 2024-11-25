@@ -1,0 +1,22 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Truck body -->
+  <rect x="100" y="200" width="300" height="100" fill="#1E90FF" />
+  
+  <!-- Truck cab -->
+  <rect x="400" y="180" width="80" height="120" fill="#1E90FF" />
+  
+  <!-- Windows -->
+  <rect x="420" y="200" width="40" height="40" fill="#ADD8E6" />
+  <rect x="420" y="260" width="40" height="40" fill="#ADD8E6" />
+  
+  <!-- Wheels -->
+  <circle cx="170" cy="310" r="30" fill="#333" />
+  <circle cx="330" cy="310" r="30" fill="#333" />
+  
+  <!-- Wheel details -->
+  <circle cx="170" cy="310" r="10" fill="#FFF" />
+  <circle cx="330" cy="310" r="10" fill="#FFF" />
+  
+  <!-- Ground line -->
+  <line x1="50" y1="350" x2="462" y2="350" stroke="#000" stroke-width="4" />
+</svg>

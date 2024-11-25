@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background Sky -->
+  <rect width="512" height="512" fill="#001a33" />
+
+  <!-- Stars -->
+  <circle cx="100" cy="80" r="2" fill="#fff" />
+  <circle cx="150" cy="120" r="2" fill="#fff" />
+  <circle cx="200" cy="60" r="2" fill="#fff" />
+  <circle cx="250" cy="100" r="2" fill="#fff" />
+  <circle cx="300" cy="80" r="2" fill="#fff" />
+  <circle cx="350" cy="120" r="2" fill="#fff" />
+  <circle cx="400" cy="90" r="2" fill="#fff" />
+  <circle cx="450" cy="110" r="2" fill="#fff" />
+
+  <!-- Telescope Tripod -->
+  <line x1="256" y1="400" x2="200" y2="300" stroke="#8B4513" stroke-width="8" />
+  <line x1="256" y1="400" x2="312" y2="300" stroke="#8B4513" stroke-width="8" />
+  <line x1="200" y1="300" x2="312" y2="300" stroke="#8B4513" stroke-width="8" />
+
+  <!-- Telescope Stand -->
+  <rect x="246" y="300" width="20" height="100" fill="#A0522D" />
+
+  <!-- Telescope Tube -->
+  <rect x="240" y="200" width="32" height="100" fill="#555" />
+
+  <!-- Telescope Lens -->
+  <circle cx="256" cy="200" r="16" fill="#777" />
+
+  <!-- Decorative Elements -->
+  <line x1="256" y1="200" x2="256" y2="150" stroke="#555" stroke-width="4" />
+  <circle cx="256" cy="150" r="8" fill="#999" />
+</svg>

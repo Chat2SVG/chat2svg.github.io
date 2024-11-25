@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <circle cx="256" cy="256" r="200" fill="#F2A648" /> <!-- Bottom bun -->
+  <rect x="56" y="220" width="400" height="30" fill="#8B4513" /> <!-- Meat patty -->
+  <rect x="56" y="200" width="400" height="20" fill="#FFA500" /> <!-- Cheese -->
+  <ellipse cx="256" cy="190" rx="200" ry="20" fill="#90EE90" /> <!-- Lettuce -->
+  <circle cx="180" cy="180" r="40" fill="#FF6347" /> <!-- Tomato slice 1 -->
+  <circle cx="260" cy="170" r="40" fill="#FF6347" /> <!-- Tomato slice 2 -->
+  <circle cx="340" cy="180" r="40" fill="#FF6347" /> <!-- Tomato slice 3 -->
+  <path d="M56 180 Q 256 100 456 180" fill="#F2A648" stroke="#F2A648" stroke-width="40" /> <!-- Top bun -->
+  <ellipse cx="256" cy="180" rx="200" ry="10" fill="#FFA500" /> <!-- Cheese on top bun -->
+</svg>

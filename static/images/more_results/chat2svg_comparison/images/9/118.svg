@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Lid of the trash bin -->
+  <rect x="128" y="64" width="256" height="32" fill="#666"/>
+  <!-- Main body of the trash bin -->
+  <rect x="144" y="96" width="224" height="320" fill="#999"/>
+  <!-- Detailing on the bin body -->
+  <line x1="144" y1="144" x2="368" y2="144" stroke="#777" stroke-width="4"/>
+  <line x1="144" y1="192" x2="368" y2="192" stroke="#777" stroke-width="4"/>
+  <line x1="144" y1="240" x2="368" y2="240" stroke="#777" stroke-width="4"/>
+  <line x1="144" y1="288" x2="368" y2="288" stroke="#777" stroke-width="4"/>
+  <line x1="144" y1="336" x2="368" y2="336" stroke="#777" stroke-width="4"/>
+  <!-- Bottom of the trash bin -->
+  <rect x="176" y="416" width="160" height="32" fill="#666"/>
+</svg>

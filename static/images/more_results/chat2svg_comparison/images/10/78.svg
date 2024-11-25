@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Define gradient for oranges -->
+  <defs>
+    <radialGradient id="orangeGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD580"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- First Orange -->
+  <circle cx="128" cy="256" r="80" fill="url(#orangeGradient)" stroke="#CC7A00" stroke-width="4"/>
+  
+  <!-- Second Orange -->
+  <circle cx="256" cy="256" r="80" fill="url(#orangeGradient)" stroke="#CC7A00" stroke-width="4"/>
+  
+  <!-- Third Orange -->
+  <circle cx="384" cy="256" r="80" fill="url(#orangeGradient)" stroke="#CC7A00" stroke-width="4"/>
+  
+  <!-- Leaves -->
+  <path d="M128,176 Q120,160 140,160 Q160,160 152,176 Z" fill="#228B22"/>
+  <path d="M256,176 Q248,160 268,160 Q288,160 280,176 Z" fill="#228B22"/>
+  <path d="M384,176 Q376,160 396,160 Q416,160 408,176 Z" fill="#228B22"/>
+</svg>

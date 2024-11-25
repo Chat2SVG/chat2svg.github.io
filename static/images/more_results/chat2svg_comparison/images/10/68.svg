@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#87CEEB"/>
+
+  <!-- Rock -->
+  <ellipse cx="256" cy="400" rx="150" ry="50" fill="#A9A9A9"/>
+
+  <!-- Lizard Body -->
+  <path d="M256,350
+           c-20,-10 -40,20 -60,0
+           c-20,-20 10,-40 0,-60
+           c-10,-20 -30,10 -50,0
+           c-20,-10 -10,-40 -30,-50
+           c-20,-10 -10,-40 -30,-50
+           c-20,-10 -10,-40 -30,-50"
+        fill="#32CD32" stroke="#228B22" stroke-width="2"/>
+
+  <!-- Lizard Eye -->
+  <circle cx="220" cy="320" r="5" fill="#000"/>
+
+  <!-- Tail -->
+  <path d="M256,350
+           Q300,360 320,400"
+        stroke="#32CD32" stroke-width="4" fill="none"/>
+
+  <!-- Legs -->
+  <line x1="220" y1="350" x2="200" y2="370" stroke="#32CD32" stroke-width="4"/>
+  <line x1="240" y1="350" x2="220" y2="370" stroke="#32CD32" stroke-width="4"/>
+</svg>

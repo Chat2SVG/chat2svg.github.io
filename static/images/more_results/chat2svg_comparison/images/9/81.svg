@@ -1,0 +1,23 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .feather { fill: red; }
+    .wing { fill: blue; }
+    .body { fill: green; }
+    .beak { fill: orange; }
+    .eye { fill: white; }
+  </style>
+  <!-- Body of the parrot -->
+  <ellipse class="body" cx="256" cy="256" rx="60" ry="130"/>
+  <!-- Wings -->
+  <path class="wing" d="M256 256 Q190 120, 100 100 Q130 180, 256 256" />
+  <path class="wing" d="M256 256 Q322 120, 412 100 Q382 180, 256 256" />
+  <!-- Tail feathers -->
+  <path class="feather" d="M256 386 Q226 456, 196 506 Q266 486, 256 386" />
+  <path class="feather" d="M256 386 Q286 456, 316 506 Q246 486, 256 386" />
+  <!-- Head -->
+  <circle cx="256" cy="126" r="53"/>
+  <!-- Beak -->
+  <polygon class="beak" points="256,100 276,150 236,150"/>
+  <!-- Eye -->
+  <circle class="eye" cx="276" cy="110" r="10"/>
+</svg>

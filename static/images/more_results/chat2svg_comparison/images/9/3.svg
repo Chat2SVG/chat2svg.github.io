@@ -1,0 +1,13 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head of the astronaut -->
+  <circle cx="200" cy="150" r="30" fill="gray" />
+  <!-- Body of the astronaut -->
+  <rect x="190" y="180" width="20" height="50" fill="lightgray" />
+  <!-- Horse -->
+  <ellipse cx="300" cy="300" rx="70" ry="30" fill="saddlebrown" />
+  <rect x="260" y="240" width="20" height="60" fill="saddlebrown" />
+  <rect x="320" y="240" width="20" height="60" fill="saddlebrown" />
+  <!-- Legs of the astronaut -->
+  <line x1="200" y1="230" x2="180" y2="260" stroke="gray" stroke-width="5" />
+  <line x1="220" y1="230" x2="240" y2="260" stroke="gray" stroke-width="5" />
+</svg>

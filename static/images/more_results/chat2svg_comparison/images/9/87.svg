@@ -1,0 +1,33 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pig's Body -->
+  <ellipse cx="256" cy="320" rx="180" ry="130" fill="#FFC0CB"/>
+  
+  <!-- Pig's Head -->
+  <circle cx="256" cy="180" r="110" fill="#FFC0CB"/>
+  
+  <!-- Pig's Ears -->
+  <polygon points="176,70 210,150 142,125" fill="#FFC0CB"/>
+  <polygon points="336,70 302,150 370,125" fill="#FFC0CB"/>
+  
+  <!-- Pig's Eyes -->
+  <circle cx="220" cy="160" r="15" fill="#000"/>
+  <circle cx="292" cy="160" r="15" fill="#000"/>
+  
+  <!-- Pig's Snout -->
+  <ellipse cx="256" cy="210" rx="35" ry="25" fill="#FFB6C1"/>
+  <circle cx="246" cy="210" r="5" fill="#000"/>
+  <circle cx="266" cy="210" r="5" fill="#000"/>
+  
+  <!-- Pig's Legs -->
+  <rect x="170" y="400" width="30" height="70" fill="#FFC0CB"/>
+  <rect x="312" y="400" width="30" height="70" fill="#FFC0CB"/>
+
+  <!-- Pig's Tail -->
+  <path d="M108,315 q-30,150 0,70" stroke="#FFC0CB" stroke-width="15" fill="none"/>
+
+  <!-- Backpack -->
+  <rect x="220" y="250" width="150" height="180" fill="#DAA520" rx="20" ry="20"/>
+  <path d="M220,320 q-30,40 0,80" stroke="#DAA520" stroke-width="15" fill="none"/>
+  <path d="M370,320 q30,40 0,80" stroke="#DAA520" stroke-width="15" fill="none"/>
+  <rect x="250" y="330" width="90" height="40" fill="#8B4513"/>
+</svg>

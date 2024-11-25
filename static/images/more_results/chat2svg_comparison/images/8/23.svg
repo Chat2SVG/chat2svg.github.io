@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="catFur" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Cat's body -->
+  <ellipse cx="256" cy="280" rx="160" ry="140" fill="url(#catFur)"/>
+  
+  <!-- Cat's head -->
+  <circle cx="256" cy="180" r="100" fill="url(#catFur)"/>
+  
+  <!-- Cat's ears -->
+  <polygon points="200,100 180,20 240,80" fill="url(#catFur)"/>
+  <polygon points="312,100 332,20 272,80" fill="url(#catFur)"/>
+  
+  <!-- Cat's eyes -->
+  <ellipse cx="216" cy="160" rx="15" ry="25" fill="white"/>
+  <ellipse cx="296" cy="160" rx="15" ry="25" fill="white"/>
+  <ellipse cx="216" cy="165" rx="10" ry="15" fill="black"/>
+  <ellipse cx="296" cy="165" rx="10" ry="15" fill="black"/>
+  
+  <!-- Cat's nose and mouth -->
+  <polygon points="256,190 246,205 266,205" fill="pink"/>
+  <path d="M236 215 Q256 230 276 215" fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- Pirate eye patch -->
+  <path d="M270 130 Q296 140 322 130" fill="black" stroke="black" stroke-width="3"/>
+  <rect x="280" y="130" width="40" height="50" fill="black"/>
+  
+  <!-- Pirate hat -->
+  <path d="M156 100 Q256 50 356 100" fill="black"/>
+  <rect x="156" y="100" width="200" height="30" fill="black"/>
+  <circle cx="256" cy="85" r="15" fill="white"/>
+  <path d="M241 85 L256 70 L271 85 Z" fill="black"/>
+</svg>

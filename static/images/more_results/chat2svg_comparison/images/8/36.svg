@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <circle cx="256" cy="256" r="100" fill="#FFE135"/>
+  <g id="petals">
+    <path d="M256 156C231 106 206 76 256 6c50 70 25 100 0 150z" fill="white"/>
+    <path d="M356 256c50-25 80-50 150 0c-70 50-100 25-150 0z" fill="white"/>
+    <path d="M256 356c25 50 50 80 0 150c-50-70-25-100 0-150z" fill="white"/>
+    <path d="M156 256c-50 25-80 50-150 0c70-50 100-25 150 0z" fill="white"/>
+  </g>
+  <use href="#petals" transform="rotate(45 256 256)"/>
+  <circle cx="256" cy="256" r="50" fill="#FFE135"/>
+</svg>

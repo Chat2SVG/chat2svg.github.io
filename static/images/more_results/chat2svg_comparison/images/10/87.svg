@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pig Body -->
+  <ellipse cx="256" cy="300" rx="100" ry="120" fill="#FFC0CB" stroke="#000" stroke-width="4"/>
+  
+  <!-- Head -->
+  <circle cx="256" cy="160" r="80" fill="#FFC0CB" stroke="#000" stroke-width="4"/>
+  
+  <!-- Eyes -->
+  <circle cx="220" cy="140" r="10" fill="#000"/>
+  <circle cx="292" cy="140" r="10" fill="#000"/>
+  
+  <!-- Snout -->
+  <ellipse cx="256" cy="180" rx="30" ry="20" fill="#FFB6C1" stroke="#000" stroke-width="2"/>
+  <circle cx="246" cy="175" r="5" fill="#000"/>
+  <circle cx="266" cy="175" r="5" fill="#000"/>
+  
+  <!-- Ears -->
+  <path d="M190,110 Q180,80 210,90" fill="#FFC0CB" stroke="#000" stroke-width="2"/>
+  <path d="M322,110 Q332,80 302,90" fill="#FFC0CB" stroke="#000" stroke-width="2"/>
+  
+  <!-- Legs -->
+  <rect x="180" y="380" width="20" height="60" fill="#FFC0CB" stroke="#000" stroke-width="2"/>
+  <rect x="312" y="380" width="20" height="60" fill="#FFC0CB" stroke="#000" stroke-width="2"/>
+  
+  <!-- Tail -->
+  <path d="M360,300 Q380,310 360,320" stroke="#000" stroke-width="4" fill="none"/>
+  
+  <!-- Backpack -->
+  <rect x="170" y="220" width="172" height="100" fill="#808080" stroke="#000" stroke-width="4" rx="10" ry="10"/>
+  <line x1="170" y1="220" x2="256" y2="150" stroke="#000" stroke-width="4"/>
+  <line x1="342" y1="220" x2="256" y2="150" stroke="#000" stroke-width="4"/>
+  
+  <!-- Backpack Straps -->
+  <path d="M170,220 Q160,250 170,280" stroke="#000" stroke-width="3" fill="none"/>
+  <path d="M342,220 Q352,250 342,280" stroke="#000" stroke-width="3" fill="none"/>
+</svg>

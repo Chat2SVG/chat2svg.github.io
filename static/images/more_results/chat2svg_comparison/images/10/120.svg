@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Violin Body -->
+  <path d="M256,50 
+           C150,50 80,120 80,226 
+           C80,332 150,402 256,402 
+           C362,402 432,332 432,226 
+           C432,120 362,50 256,50Z" 
+        fill="#8B4513" stroke="#000" stroke-width="4"/>
+  
+  <!-- F-holes -->
+  <path d="M200,180 
+           C190,200 210,220 200,240 
+           C210,220 190,200 200,180Z" 
+        fill="#FFF" stroke="#000" stroke-width="2"/>
+  
+  <path d="M312,180 
+           C302,200 322,220 312,240 
+           C322,220 302,200 312,180Z" 
+        fill="#FFF" stroke="#000" stroke-width="2"/>
+  
+  <!-- Neck -->
+  <rect x="240" y="50" width="32" height="120" fill="#8B4513" stroke="#000" stroke-width="4"/>
+  
+  <!-- Scroll -->
+  <circle cx="256" cy="40" r="12" fill="#8B4513" stroke="#000" stroke-width="4"/>
+  
+  <!-- Bow -->
+  <path d="M400,100 
+           Q420,180 300,300" 
+        stroke="#000" stroke-width="6" fill="none"/>
+  
+  <!-- Bow Hair -->
+  <path d="M300,300 
+           Q310,290 320,300 
+           Q330,310 340,300" 
+        stroke="#555" stroke-width="2" fill="none"/>
+</svg>

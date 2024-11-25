@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#87CEEB"/>
+
+  <!-- Ground -->
+  <rect y="450" width="512" height="62" fill="#228B22"/>
+
+  <!-- Roller Coaster Tracks -->
+  <path d="M50 400 
+           C100 350, 150 450, 200 400 
+           C250 350, 300 450, 350 400
+           C400 350, 450 450, 500 400" 
+        stroke="#8B4513" stroke-width="8" fill="none"/>
+
+  <!-- First Loop -->
+  <circle cx="200" cy="340" r="30" stroke="#8B4513" stroke-width="8" fill="none"/>
+
+  <!-- Second Loop -->
+  <circle cx="350" cy="340" r="30" stroke="#8B4513" stroke-width="8" fill="none"/>
+
+  <!-- Roller Coaster Cars -->
+  <g>
+    <!-- Car 1 -->
+    <rect x="190" y="380" width="20" height="10" fill="#FF0000"/>
+    <circle cx="195" cy="390" r="3" fill="#000"/>
+    <circle cx="205" cy="390" r="3" fill="#000"/>
+    <!-- Car 2 -->
+    <rect x="340" y="380" width="20" height="10" fill="#FF0000"/>
+    <circle cx="345" cy="390" r="3" fill="#000"/>
+    <circle cx="355" cy="390" r="3" fill="#000"/>
+  </g>
+
+  <!-- Support Poles -->
+  <line x1="50" y1="400" x2="50" y2="300" stroke="#8B4513" stroke-width="4"/>
+  <line x1="500" y1="400" x2="500" y2="300" stroke="#8B4513" stroke-width="4"/>
+  <line x1="50" y1="300" x2="200" y2="300" stroke="#8B4513" stroke-width="4"/>
+  <line x1="350" y1="300" x2="500" y2="300" stroke="#8B4513" stroke-width="4"/>
+</svg>

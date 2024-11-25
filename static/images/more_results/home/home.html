@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: auto;
+            background-color: #f5f5f7;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        .my_text {
+            font-size: 22px;
+            line-height: 1.5;
+        }
+
+        .my_title {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        #inner {
+            left: 26%;
+            top: 45px;
+            width: 48%;
+            height: auto;
+            position: absolute;
+            z-index: 1;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            font-family: inherit;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin: 25px auto;
+            width: 85%;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        td, th {
+            border: 1px solid #e0e0e0;
+            text-align: left;
+            padding: 15px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        tr:hover {
+            background-color: #f0f4f8;
+            transition: background-color 0.2s ease;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #3498db;
+        }
+
+        strong {
+            color: #34495e;
+        }
+    </style>
+</head>
+
+    <body>
+
+        <div class="my_text" id="inner">
+            <p class="my_title">
+                <strong>
+                    Chat2SVG: Vector Graphics Generation with Large Language Models
+                    and Image Diffusion Models
+                </strong>
+            </p>
+            <strong>Contents list</strong>:
+            <p></p>
+            <table>
+                <tr>
+                    <td>Task</td>
+                    <td>Number</td>
+                </tr>
+                <tr>
+                    <td><a href="../chat2svg_gen/index.html"
+                            target="displayframe"><strong>1. Text-Guided SVG Generation</strong></a></td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>&emsp;</td>
+                    <td>&emsp;</td>
+                </tr>
+
+                <tr>
+                    <td><a href="../chat2svg_edit/index.html"
+                            target="displayframe"><strong>2. Text-Guided SVG Editing</strong></a></td>
+                    <td>44</td>
+                </tr>
+                <tr>
+                    <td>&emsp;</td>
+                    <td>&emsp;</td>
+                </tr>
+                
+                <tr>
+                    <td><a href="../chat2svg_comparison/index.html"
+                            target="displayframe"><strong>3. Comparison with Existing Methods</strong></a></td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>&emsp;</td>
+                    <td>&emsp;</td>
+                </tr>
+                
+                <tr>
+                    <td><a href="../chat2svg_user_study/index.html"
+                            target="displayframe"><strong>4. User Study Details</strong></a></td>
+                    <td>20</td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+
+</html>

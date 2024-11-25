@@ -1,0 +1,47 @@
+<svg
+  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <!-- Draw the chef's hat -->
+  <g>
+    <ellipse cx="256" cy="100" rx="100" ry="50" fill="white" stroke="black" stroke-width="4"/>
+    <path d="M156,100 Q256,20 356,100" fill="white" stroke="black" stroke-width="4"/>
+    <path d="M156,100 Q256,40 356,100" fill="white" stroke="black" stroke-width="2"/>
+  </g>
+  
+  <!-- Draw the dog's head -->
+  <circle cx="256" cy="250" r="100" fill="#A0522D" stroke="black" stroke-width="4"/>
+
+  <!-- Draw the ears -->
+  <path
+    d="M176,220 Q160,180 200,200"
+    fill="#A0522D"
+    stroke="black"
+    stroke-width="4"
+  />
+  <path
+    d="M336,220 Q352,180 312,200"
+    fill="#A0522D"
+    stroke="black"
+    stroke-width="4"
+  />
+
+  <!-- Draw the eyes -->
+  <circle cx="220" cy="240" r="10" fill="black"/>
+  <circle cx="292" cy="240" r="10" fill="black"/>
+
+  <!-- Draw the nose -->
+  <ellipse cx="256" cy="270" rx="15" ry="10" fill="black"/>
+
+  <!-- Draw the mouth -->
+  <path
+    d="M246,280 Q256,290 266,280"
+    stroke="black"
+    stroke-width="4"
+    fill="none"
+  />
+
+  <!-- Add some details to the hat -->
+  <rect x="156" y="100" width="200" height="20" fill="white" stroke="black" stroke-width="2"/>
+</svg>

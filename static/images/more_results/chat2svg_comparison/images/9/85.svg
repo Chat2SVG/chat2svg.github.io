@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="lightblue"/> <!-- Ice background -->
+  <ellipse cx="256" cy="400" rx="180" ry="60" fill="white"/> <!-- Ice platform -->
+  <path d="M256 160c-50 0-80 40-80 80v80c0 40 30 40 30 40h100c0 0 30 0 30-40v-80c0-40-30-80-80-80z" fill="black"/> <!-- Penguin body -->
+  <ellipse cx="256" cy="240" rx="56" ry="80" fill="white"/> <!-- Penguin belly -->
+  <circle cx="220" cy="200" r="10" fill="black"/> <!-- Left eye -->
+  <circle cx="292" cy="200" r="10" fill="black"/> <!-- Right eye -->
+  <polygon points="256,260 248,280 264,280" fill="orange"/> <!-- Beak -->
+  <path d="M176 320c-20 0-20 20-20 30v10c0 10 10 20 20 20s20-10 20-20v-10c0-10-10-30-20-30z" fill="black"/> <!-- Left flipper -->
+  <path d="M336 320c20 0 20 20 20 30v10c0 10-10 20-20 20s-20-10-20-20v-10c0-10 10-30 20-30z" fill="black"/> <!-- Right flipper -->
+  <path d="M240 340c10 0 20 10 32 10s22-10 32-10v10c0 20-20 40-32 40s-32-20-32-40v-10z" fill="orange"/> <!-- Feet -->
+</svg>

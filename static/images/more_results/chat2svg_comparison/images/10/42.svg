@@ -1,0 +1,35 @@
+<svg
+  width="512"
+  height="512"
+  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Elephant Body -->
+  <ellipse cx="256" cy="320" rx="150" ry="80" fill="#A9A9A9" />
+
+  <!-- Elephant Head -->
+  <ellipse cx="150" cy="250" rx="60" ry="50" fill="#A9A9A9" />
+
+  <!-- Trunk -->
+  <path
+    d="M130,270 Q120,310 150,330 Q180,350 160,390"
+    stroke="#A9A9A9"
+    stroke-width="20"
+    fill="none"
+    stroke-linecap="round"
+  />
+
+  <!-- Ears -->
+  <ellipse cx="100" cy="230" rx="40" ry="60" fill="#A9A9A9" />
+  <ellipse cx="200" cy="230" rx="40" ry="60" fill="#A9A9A9" />
+
+  <!-- Eyes -->
+  <circle cx="140" cy="240" r="8" fill="#000" />
+  <circle cx="160" cy="240" r="8" fill="#000" />
+
+  <!-- Legs -->
+  <rect x="180" y="380" width="20" height="80" fill="#A9A9A9" />
+  <rect x="240" y="380" width="20" height="80" fill="#A9A9A9" />
+  <rect x="320" y="380" width="20" height="80" fill="#A9A9A9" />
+  <rect x="280" y="380" width="20" height="80" fill="#A9A9A9" />
+</svg>

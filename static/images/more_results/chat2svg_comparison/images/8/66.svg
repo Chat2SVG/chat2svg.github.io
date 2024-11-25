@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Sky -->
+  <rect x="0" y="0" width="512" height="320" fill="#87CEEB"/>
+  
+  <!-- Sea -->
+  <rect x="0" y="320" width="512" height="192" fill="#1E90FF"/>
+  
+  <!-- Waves -->
+  <path d="M0 340 Q 64 320, 128 340 T 256 340 T 384 340 T 512 340" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M0 360 Q 64 340, 128 360 T 256 360 T 384 360 T 512 360" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Land -->
+  <path d="M0 320 Q 128 300, 256 320 L 256 512 L 0 512 Z" fill="#8B4513"/>
+  
+  <!-- Lighthouse -->
+  <rect x="180" y="100" width="60" height="220" fill="#FFFFFF"/>
+  <polygon points="160,100 260,100 210,20" fill="#FF0000"/>
+  <rect x="195" y="40" width="30" height="60" fill="#000000"/>
+  <circle cx="210" cy="70" r="15" fill="#FFFF00"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="80" r="40" fill="#FFD700"/>
+</svg>

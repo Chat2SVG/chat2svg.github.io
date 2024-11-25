@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Sky -->
+  <rect width="512" height="512" fill="#87CEEB"/>
+  
+  <!-- Ocean -->
+  <rect y="350" width="512" height="162" fill="#1E90FF"/>
+  
+  <!-- Island -->
+  <ellipse cx="256" cy="400" rx="150" ry="60" fill="#DEB887"/>
+  
+  <!-- Palm Tree Trunk -->
+  <rect x="220" y="300" width="20" height="100" fill="#8B4513"/>
+  
+  <!-- Palm Leaves -->
+  <path d="M230,300 
+           Q200,250 230,200 
+           Q260,250 230,300 
+           Z" fill="#228B22"/>
+  <path d="M230,300 
+           Q260,250 230,200 
+           Q200,250 230,300 
+           Z" fill="#228B22"/>
+  <path d="M230,300 
+           Q210,240 250,220 
+           Q230,250 230,300 
+           Z" fill="#228B22"/>
+  <path d="M230,300 
+           Q250,240 210,220 
+           Q230,250 230,300 
+           Z" fill="#228B22"/>
+</svg>

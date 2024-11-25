@@ -1,0 +1,39 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#ffffff"/>
+
+  <!-- Rabbit Body -->
+  <ellipse cx="256" cy="320" rx="80" ry="120" fill="#A9A9A9"/>
+
+  <!-- Rabbit Head -->
+  <circle cx="256" cy="160" r="60" fill="#A9A9A9"/>
+
+  <!-- Rabbit Ears -->
+  <ellipse cx="216" cy="80" rx="15" ry="60" fill="#A9A9A9"/>
+  <ellipse cx="296" cy="80" rx="15" ry="60" fill="#A9A9A9"/>
+
+  <!-- Rabbit Eyes -->
+  <circle cx="240" cy="150" r="5" fill="#000000"/>
+  <circle cx="272" cy="150" r="5" fill="#000000"/>
+
+  <!-- Rabbit Nose -->
+  <circle cx="256" cy="170" r="5" fill="#FF69B4"/>
+
+  <!-- Rabbit Mouth -->
+  <path d="M256 175 Q250 180 256 185 Q262 180 256 175" stroke="#000000" stroke-width="2" fill="none"/>
+
+  <!-- Carrot 1 -->
+  <polygon points="180,400 160,380 200,380" fill="#FFA500"/>
+  <rect x="195" y="380" width="10" height="20" fill="#228B22"/>
+
+  <!-- Carrot 2 -->
+  <polygon points="240,420 220,400 260,400" fill="#FFA500"/>
+  <rect x="255" y="400" width="10" height="20" fill="#228B22"/>
+
+  <!-- Carrot 3 -->
+  <polygon points="320,390 300,370 340,370" fill="#FFA500"/>
+  <rect x="335" y="370" width="10" height="20" fill="#228B22"/>
+
+  <!-- Ground -->
+  <ellipse cx="256" cy="480" rx="300" ry="20" fill="#32CD32"/>
+</svg>

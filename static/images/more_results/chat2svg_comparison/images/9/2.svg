@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Sky background -->
+  <rect width="512" height="512" fill="lightblue" />
+  
+  <!-- Sun -->
+  <circle cx="400" cy="100" r="40" fill="yellow" />
+  
+  <!-- Icebergs -->
+  <path d="M100,400 L150,300 L180,350 L200,270 L250,400 Z" fill="whitesmoke" stroke="lightgray" stroke-width="2" />
+  <path d="M300,420 L350,280 L390,350 L420,300 L470,420 Z" fill="whitesmoke" stroke="lightgray" stroke-width="2" />
+  
+  <!-- Frozen ground -->
+  <rect y="400" width="512" height="112" fill="white" />
+  
+  <!-- Ice floes -->
+  <ellipse cx="150" cy="450" rx="50" ry="20" fill="whitesmoke" stroke="lightgray" stroke-width="2" />
+  <ellipse cx="350" cy="470" rx="70" ry="30" fill="whitesmoke" stroke="lightgray" stroke-width="2" />
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Body -->
+  <ellipse cx="256" cy="256" rx="80" ry="120" fill="black" />
+  <!-- Head -->
+  <circle cx="256" cy="160" r="60" fill="black" />
+  <!-- Legs -->
+  <!-- Right Legs -->
+  <path d="M256,240 L350,180" stroke="black" stroke-width="20" stroke-linecap="round"/>
+  <path d="M256,260 L370,220" stroke="black" stroke-width="20" stroke-linecap="round"/>
+  <path d="M256,280 L350,300" stroke="black" stroke-width="20" stroke-linecap="round"/>
+  <path d="M256,300 L370,340" stroke="black" stroke-width="20" stroke-linecap="round"/>
+  <!-- Left Legs -->
+  <path d="M256,240 L162,180" stroke="black" stroke-width="20" stroke-linecap="round"/>
+  <path d="M256,260 L142,220" stroke="black" stroke-width="20" stroke-linecap="round"/>
+  <path d="M256,280 L162,300" stroke="black" stroke-width="20" stroke-linecap="round"/>
+  <path d="M256,300 L142,340" stroke="black" stroke-width="20" stroke-linecap="round"/>
+</svg>

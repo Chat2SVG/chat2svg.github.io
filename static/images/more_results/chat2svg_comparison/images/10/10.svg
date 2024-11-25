@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cup -->
+  <path d="M156,112 L356,112 C376,112 392,128 392,148 L392,360 C392,380 376,396 356,396 L156,396 C136,396 120,380 120,360 L120,148 C120,128 136,112 156,112 Z" fill="#F5F5F5" stroke="#000" stroke-width="4"/>
+  
+  <!-- Tea -->
+  <rect x="140" y="300" width="240" height="80" fill="#D2691E" />
+  
+  <!-- Bubbles -->
+  <circle cx="180" cy="390" r="10" fill="#3E2723"/>
+  <circle cx="220" cy="380" r="8" fill="#3E2723"/>
+  <circle cx="260" cy="395" r="9" fill="#3E2723"/>
+  <circle cx="300" cy="385" r="7" fill="#3E2723"/>
+  <circle cx="340" cy="390" r="10" fill="#3E2723"/>
+  
+  <!-- Straw -->
+  <rect x="250" y="80" width="12" height="220" fill="#FF1493" />
+  <circle cx="256" cy="80" r="16" fill="#FF69B4" />
+</svg>

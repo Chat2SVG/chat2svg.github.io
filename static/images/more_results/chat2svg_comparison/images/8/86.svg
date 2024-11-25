@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Forest background -->
+  <rect x="0" y="0" width="512" height="512" fill="#2a4d2a"/>
+  
+  <!-- Trees -->
+  <path d="M50 512V300 L100 200 L150 300 V512 Z" fill="#1a3300"/>
+  <path d="M200 512V250 L250 150 L300 250 V512 Z" fill="#1a3300"/>
+  <path d="M400 512V350 L450 250 L500 350 V512 Z" fill="#1a3300"/>
+  
+  <!-- Grand piano -->
+  <path d="M150 300 L400 300 L450 400 L100 400 Z" fill="#1a1a1a"/>
+  <rect x="150" y="300" width="250" height="20" fill="#333333"/>
+  <path d="M150 300 Q250 250 400 300" fill="none" stroke="#333333" stroke-width="5"/>
+  
+  <!-- Piano keys -->
+  <rect x="170" y="320" width="210" height="60" fill="white"/>
+  <rect x="190" y="320" width="10" height="40" fill="black"/>
+  <rect x="220" y="320" width="10" height="40" fill="black"/>
+  <rect x="250" y="320" width="10" height="40" fill="black"/>
+  <rect x="290" y="320" width="10" height="40" fill="black"/>
+  <rect x="320" y="320" width="10" height="40" fill="black"/>
+  <rect x="350" y="320" width="10" height="40" fill="black"/>
+</svg>

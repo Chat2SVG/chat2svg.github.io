@@ -1,0 +1,16 @@
+  <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="rainbow-gradient" gradientTransform="rotate(90)">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="14.3%" stop-color="orange"/>
+        <stop offset="28.6%" stop-color="yellow"/>
+        <stop offset="42.9%" stop-color="green"/>
+        <stop offset="57.1%" stop-color="blue"/>
+        <stop offset="71.4%" stop-color="indigo"/>
+        <stop offset="85.7%" stop-color="violet"/>
+      </linearGradient>
+    </defs>
+    <rect width="100%" height="100%" fill="skyblue"/>
+    <circle cx="256" cy="512" r="256" fill="url(#rainbow-gradient)" />
+    <circle cx="256" cy="512" r="210" fill="skyblue"/>
+  </svg>

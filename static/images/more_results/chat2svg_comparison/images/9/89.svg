@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background sky -->
+  <rect width="512" height="512" fill="#87CEEB"/>
+
+  <!-- Clouds -->
+  <ellipse cx="150" cy="120" rx="60" ry="30" fill="white"/>
+  <ellipse cx="190" cy="130" rx="60" ry="30" fill="white"/>
+  <ellipse cx="230" cy="120" rx="60" ry="30" fill="white"/>
+  
+  <ellipse cx="350" cy="200" rx="80" ry="40" fill="white"/>
+  <ellipse cx="400" cy="210" rx="80" ry="40" fill="white"/>
+  <ellipse cx="450" cy="200" rx="80" ry="40" fill="white"/>
+
+  <!-- Plane -->
+  <polygon points="256,300 276,280 276,260 306,240 256,220" fill="lightgray"/>
+  <rect x="256" y="220" width="60" height="90" fill="lightgray" transform="rotate(-45 256 220)"/>
+  <polygon points="216,240 256,220 236,260" fill="gray"/>
+  <polygon points="256,300 276,320 256,340" fill="gray"/>
+</svg>

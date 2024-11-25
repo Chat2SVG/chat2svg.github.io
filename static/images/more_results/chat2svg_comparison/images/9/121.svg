@@ -1,0 +1,26 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="smokeGrad" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" style="stop-color:rgb(200,200,200);stop-opacity:0" />
+      <stop offset="100%" style="stop-color:rgb(100,100,100);stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="lavaGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="lightblue"/>
+  <ellipse cx="256" cy="160" rx="100" ry="50" fill="url(#smokeGrad)" />
+  <ellipse cx="216" cy="120" rx="80" ry="40" fill="url(#smokeGrad)" />
+  <ellipse cx="296" cy="120" rx="80" ry="40" fill="url(#smokeGrad)" />
+  <path d="M256 512 L156 262 Q256 180, 356 262 Z" fill="saddlebrown" />
+  <path d="M256 262 Q246 200, 266 262 Z" fill="url(#lavaGrad)" />
+  <path d="M246 262 Q236 220, 256 262 Z" fill="url(#lavaGrad)" />
+  <path d="M266 262 Q276 220, 256 262 Z" fill="url(#lavaGrad)" />
+  <g transform="translate(0, -50)">
+    <circle cx="246" cy="100" r="20" fill="url(#lavaGrad)" />
+    <circle cx="270" cy="80" r="15" fill="url(#lavaGrad)" />
+    <circle cx="230" cy="70" r="10" fill="url(#lavaGrad)" />
+    <circle cx="280" cy="60" r="5" fill="url(#lavaGrad)" />
+  </g>
+</svg>

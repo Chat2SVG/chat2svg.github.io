@@ -1,0 +1,19 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Plate -->
+  <ellipse cx="256" cy="480" rx="240" ry="20" fill="#d9d9d9"/>
+  
+  <!-- Cake base -->
+  <ellipse cx="256" cy="380" rx="160" ry="40" fill="#5a3e26"/>
+  <rect x="96" y="180" width="320" height="200" fill="#8b5e3c" />
+
+  <!-- Icing -->
+  <path d="M96 180 Q256 220 416 180 L416 230 Q256 270 96 230 Z" fill="#f5e5d1" />
+  <path d="M96 230 Q256 270 416 230 L416 280 Q256 320 96 280 Z" fill="#dea77d" />
+
+  <!-- Cherry -->
+  <circle cx="256" cy="160" r="30" fill="#c0392b"/>
+  <path d="M256 130 Q266 100 280 110" stroke="#b03a2e" stroke-width="4" fill="none" />
+
+  <!-- Shadow on cake -->
+  <path d="M96 380 Q256 420 416 380 L416 400 Q256 440 96 400 Z" fill="rgba(0, 0, 0, 0.1)" />
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle for the donut -->
+  <circle cx="256" cy="256" r="200" fill="#C69C6D" />
+  <!-- Inner circle for the hole -->
+  <circle cx="256" cy="256" r="80" fill="#F5E1C0" />
+  <!-- Pink frosting -->
+  <path d="M256,56
+           a200,200 0 1,0 0.001,400.001
+           a200,200 0 1,0 -0.001,-400.001
+           m0,320a120,120 0 1,1 0.001,-240.001
+           a120,120 0 0,1 -0.001,240.001"
+        fill="#FF69B4"/>
+  <!-- Drips of frosting -->
+  <path d="M200,200
+           q20,40 40,0
+           q20,40 40,0
+           q20,40 40,0
+           q20,40 40,0"
+        fill="#FF69B4"/>
+</svg>

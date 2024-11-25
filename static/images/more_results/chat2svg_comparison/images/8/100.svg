@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Sandbox -->
+  <rect x="50" y="300" width="412" height="162" fill="#f2d16b" />
+  
+  <!-- Sand texture -->
+  <path d="M50 300 L462 300 L462 462 L50 462 Z" fill="#e8c76b" fill-opacity="0.5" />
+  
+  <!-- Shovel handle -->
+  <line x1="256" y1="50" x2="256" y2="300" stroke="#8b4513" stroke-width="20" />
+  
+  <!-- Shovel blade -->
+  <path d="M206 300 Q256 350 306 300" fill="#808080" stroke="#696969" stroke-width="5" />
+  
+  <!-- Shovel tip -->
+  <path d="M206 300 L256 340 L306 300 Z" fill="#a9a9a9" stroke="#696969" stroke-width="5" />
+</svg>

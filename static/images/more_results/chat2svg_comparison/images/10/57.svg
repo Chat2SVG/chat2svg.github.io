@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Brim of the hat -->
+  <ellipse cx="256" cy="400" rx="200" ry="40" fill="#000" />
+  
+  <!-- Top part of the hat -->
+  <rect x="156" y="150" width="200" height="250" rx="100" ry="100" fill="#000" />
+  
+  <!-- Ribbon band -->
+  <rect x="156" y="275" width="200" height="20" fill="#FFD700" />
+</svg>

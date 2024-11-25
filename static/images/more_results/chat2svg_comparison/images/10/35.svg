@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Crown Base -->
+  <path d="M100 300 L150 250 L200 300 L250 250 L300 300 L350 250 L400 300" fill="none" stroke="#FFD700" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Left Arch Jewel -->
+  <circle cx="150" cy="250" r="15" fill="#FF0000" stroke="#8B0000" stroke-width="2"/>
+  
+  <!-- Middle Left Arch Jewel -->
+  <circle cx="250" cy="250" r="15" fill="#0000FF" stroke="#00008B" stroke-width="2"/>
+  
+  <!-- Right Arch Jewel -->
+  <circle cx="350" cy="250" r="15" fill="#00FF00" stroke="#006400" stroke-width="2"/>
+  
+  <!-- Decorative Lines -->
+  <line x1="100" y1="300" x2="400" y2="300" stroke="#FFD700" stroke-width="12"/>
+  
+  <!-- Additional Jewels -->
+  <circle cx="125" cy="275" r="10" fill="#FFFF00" stroke="#DAA520" stroke-width="2"/>
+  <circle cx="175" cy="275" r="10" fill="#FF69B4" stroke="#C71585" stroke-width="2"/>
+  <circle cx="225" cy="275" r="10" fill="#00CED1" stroke="#008B8B" stroke-width="2"/>
+  <circle cx="275" cy="275" r="10" fill="#FFA500" stroke="#FF8C00" stroke-width="2"/>
+  <circle cx="325" cy="275" r="10" fill="#BA55D3" stroke="#800080" stroke-width="2"/>
+  <circle cx="375" cy="275" r="10" fill="#7CFC00" stroke="#556B2F" stroke-width="2"/>
+</svg>
